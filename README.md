@@ -2,7 +2,7 @@ Requirements：The GSL library is required，you need to install GSL library fir
 The latest version should work. It is mentioned that the gsl library is install to /usr/local/lib by default, you should specify the path and add it to the LD_LIBRARY_PATH first.
 
 
-INSTALL : the binary file iForm is ready to use
+INSTALL : after install the gsl library, use commandline $make to make the file, use $./iForm to excute the program
 USAGE: iForm [options] <motif file> <sequence file>
 
 More information is avaliable by using parameter -h
